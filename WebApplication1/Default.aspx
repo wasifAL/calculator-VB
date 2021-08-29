@@ -16,7 +16,7 @@
 
         <div class="calculator card">
 
-            <input type="text" class="calculator-screen z-depth-1" value="" disabled />
+            <input type="text" class="calculator-screen z-depth-1" value="" />
 
             <div class="calculator-keys">
 

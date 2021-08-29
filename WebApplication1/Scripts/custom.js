@@ -1,4 +1,12 @@
 ﻿$(document).ready(() => {
+
+    $.ajax({
+        url: "http://localhost:53682/api/add",
+        success: function (result) {
+            alert(result);
+        }
+    });
+
     const calculator = {
         displayValue: '0',
         firstOperand: null,
